@@ -1,0 +1,68 @@
+:root{
+    --blanco: #EDF2F4;
+    --grisClaro: #8D99AE;
+    --grisFuerte: #2B2D42;
+    --rojoClaro: #EF233C;
+    --rojoFuerte: #D90429;
+    --fuenteTitulos: 'Oswald', sans-serif;
+    --funteLetra:'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--blanco);
+    width: 100vw;
+    height: autoß;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    overflow: scroll;
+    font-family: var(--funteLetra);
+
+}
+main{
+    width: 90%;
+    height: 97%;
+    background-color: var(--grisClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid var(--grisClaro);
+    border-radius: 12px;
+    overflow:scroll;
+    margin-top: 30px;
+}
+#title {
+    font-family: var(--fuenteTitulos);
+    color: white;
+}
+
+#img-div{
+    max-width: 275px;
+    max-height: 450px;
+    overflow: hidden;
+}
+#image{
+   height: 100%;
+   width: 100%;
+   display: block;
+   
+}
+#tribute-info{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    font-family: var(--fuenteTitulos);
+    color: var(--rojoClaro);
+}
+#information{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
